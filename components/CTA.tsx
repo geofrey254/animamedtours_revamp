@@ -8,7 +8,7 @@ const CTA = () => {
           <div className="grid grid-cols-12 bg-sell md:p-4 rounded-lg border shadow-lg">
             <div className="selling col-span-12 text-center">
               <h4 className="sell md:text-5xl text-2xl p-12">
-                Don`&apos`t wait any longer <br /> to prioritize your health.
+                Dont wait any longer <br /> to prioritize your health.
               </h4>
               <a href="#" className="btn-contact no-underline">
                 Contact Us Today
