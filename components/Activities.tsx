@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Activities = () => {
   return (
@@ -29,12 +30,14 @@ const Activities = () => {
               </p>
             </div>
             <div className="md:col-span-4 col-span-12 md:mt-0 mt-16 md:p-6 p-0">
-              <img
+              <Image
                 src="/activity.png"
+                width={500}
+                height={500}
+                quality={100}
+                alt="Anima Medtours Logo"
                 className="logo_anima"
-                alt="Consultation"
-                loading="lazy"
-              />
+              ></Image>
             </div>
           </div>
         </div>

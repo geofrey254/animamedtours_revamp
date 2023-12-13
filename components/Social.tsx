@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Social = () => {
   return (
@@ -16,19 +17,40 @@ const Social = () => {
                   href="https://www.facebook.com/profile.php?id=100090202927867&mibextid=ZbWKwL"
                   className="mx-1 text-white"
                 >
-                  <img className="social-svg" src="/facebook.svg" alt="" />
+                  <Image
+                    src="/facebook.svg"
+                    width={500}
+                    height={500}
+                    quality={100}
+                    alt="Facebook Logo"
+                    className="social-svg"
+                  ></Image>
                 </a>
                 <a
                   href="https://www.linkedin.com/company/anima-medtours-africa/"
                   className="mx-1 text-white"
                 >
-                  <img className="social-svg" src="/linkedin.svg" alt="" />
+                  <Image
+                    src="/linkedin.svg"
+                    width={500}
+                    height={500}
+                    quality={100}
+                    alt="LinkedIn Logo"
+                    className="social-svg"
+                  ></Image>
                 </a>
                 <a
                   href="https://www.instagram.com/p/CpHusP2IxLw/?igshid=YmMyMTA2M2Y="
                   className="mx-1 text-white"
                 >
-                  <img className="social-svg" src="/instagram.svg" alt="" />
+                  <Image
+                    src="/instagram.svg"
+                    width={500}
+                    height={500}
+                    quality={100}
+                    alt="Instagram Logo"
+                    className="social-svg"
+                  ></Image>
                 </a>
               </div>
             </div>

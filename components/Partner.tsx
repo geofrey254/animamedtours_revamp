@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Partner = () => {
   return (
@@ -7,12 +8,14 @@ const Partner = () => {
         <div className="custom-container">
           <div className="grid grid-cols-12">
             <div className="md:col-span-4 lg:col-span-6 col-span-12">
-              <img
+              <Image
                 src="/partner.png"
-                className="logo_anima object-fit"
+                width={500}
+                height={500}
+                quality={100}
                 alt="People Shaking Hands"
-                loading="lazy"
-              />
+                className="logo_anima"
+              ></Image>
             </div>
             <div className="partners-text md:col-span-8 lg:col-span-6 col-span-12">
               <h1 className="partners-head md:text-6xl text-3xl font-bold lh-1 mb-3">

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About_top = () => {
   return (
@@ -7,12 +8,14 @@ const About_top = () => {
         <div className="container p-4">
           <div className="grid grid-cols-12 gap-5">
             <div className="md:col-span-4 col-span-12">
-              <img
+              <Image
                 src="/anima_logo.png"
-                className="logo_about img-fluid"
-                alt="Anima MedTours Logo"
-                loading="lazy"
-              />
+                width={500}
+                height={500}
+                quality={100}
+                alt="Anima Medtours Logo"
+                className="logo_about"
+              ></Image>
             </div>
             <div className="about-text md:col-span-8 col-span-12">
               <h1 className="about-head md:text-5xl text-2xl font-bold mb-3">

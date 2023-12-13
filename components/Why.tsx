@@ -22,11 +22,14 @@ const Why = () => {
               </p>
             </div>
             <div className="md:col-span-5 col-span-12 p-12">
-              <img
-                className="h-auto md:max-w-md max-w-xs"
+              <Image
                 src="/med.png"
-                alt="Surgeons Image"
-              />
+                width={500}
+                height={500}
+                quality={100}
+                alt="Surgeons png"
+                className="h-auto md:max-w-md max-w-xs"
+              ></Image>
             </div>
             <div className="md:col-span-6 col-span-12 md:p-0 p-8 justify-content-center align-items-center text-center">
               <h2 className="p-2 mt-4 text-bg-cool rounded-md text-white text-2xl">

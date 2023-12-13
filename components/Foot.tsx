@@ -3,6 +3,7 @@ import { BiHome, BiSearch, BiUser } from "react-icons/bi";
 import { SiHandshake } from "react-icons/si";
 import { IoNavigate } from "react-icons/io5";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import Image from "next/image";
 
 const Foot = () => {
   return (
@@ -49,12 +50,14 @@ const Foot = () => {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <a href="#">
-                      <img
+                      <Image
                         src="/anima_logo.png"
-                        className="img-fluid"
-                        alt="Anima MedTours Logo"
-                        width="80"
-                      />
+                        width={500}
+                        height={500}
+                        quality={100}
+                        alt="Anima Medtours Logo"
+                        className="logo_about"
+                      ></Image>
                     </a>
                   </div>
                   <div className="footer-text">
