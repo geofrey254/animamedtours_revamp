@@ -10,7 +10,7 @@ const CTA = () => {
               <h4 className="sell md:text-5xl text-2xl p-12">
                 Dont wait any longer <br /> to prioritize your health.
               </h4>
-              <a href="#" className="btn-contact no-underline">
+              <a href="/contact" className="btn-contact no-underline">
                 Contact Us Today
               </a>
             </div>
