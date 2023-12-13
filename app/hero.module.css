@@ -1,0 +1,153 @@
+.bg_top {
+    width: 100%;
+    height: 120vh;
+    background: url(/doc.jpg), linear-gradient(to right, #1f7fa9, rgba(73, 66, 66, 0.961)) center no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+}
+
+.shape {
+    position: absolute;
+    top: 0%;
+    /* set the top position to the desired value */
+    right: 9%;
+    /* align the shape to the left */
+    width: 40%;
+    /* set the width to 100% to fill the container */
+    height: 100px;
+    /* set the height to the desired value */
+    background-color: #ffcc2f;
+    /* set the background color to the desired value */
+    opacity: 1;
+    /* set the opacity to the desired value */
+    transform: rotate(45deg);
+}
+
+.shape_two {
+    position: absolute;
+    top: 0%;
+    /* set the top position to the desired value */
+    right: 20%;
+    /* align the shape to the left */
+    width: 40%;
+    /* set the width to 100% to fill the container */
+    height: 100px;
+    /* set the height to the desired value */
+    opacity: 1;
+    /* set the opacity to the desired value */
+    transform: rotate(45deg);
+    border: 2px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.hero_heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.8);
+}
+
+.top_line {
+    font-size: 12rem;
+    text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 600px) {
+    .bg_top {
+        height: 80vh;
+    }
+
+    .shape {
+        top: 0%;
+        /* set the top position to the desired value */
+        left: 40%;
+        /* align the shape to the left */
+        width: 60%;
+        /* set the width to 100% to fill the container */
+        height: 50px;
+    }
+
+    .shape_two {
+        top: 0%;
+        /* set the top position to the desired value */
+        left: 30%;
+        /* align the shape to the left */
+        width: 30%;
+        /* set the width to 100% to fill the container */
+        height: 50px;
+    }
+
+    .hero_heading {
+        font-size: 3rem;
+        margin-top: 100px;
+    }
+
+    .top_line {
+        font-size: 5rem;
+    }
+
+    .abroad {
+        font-size: 1em;
+    }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (min-width: 600px) {
+    .bg_top {
+        height: 100vh;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (min-width: 768px) {
+    .bg_top {
+        height: 90vh;
+    }
+
+
+
+    .hero_heading {
+        font-size: 5rem;
+        margin-top: 100px;
+    }
+
+    .top_line {
+        font-size: 8rem;
+    }
+
+    .abroad {
+        font-size: 1em;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 992px) {
+    .hero_heading {
+        font-size: 6rem;
+        padding-top: 50px;
+    }
+
+    .top_line {
+        font-size: 10rem;
+    }
+
+    .abroad {
+        font-size: 1em;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1399.98px) {}
