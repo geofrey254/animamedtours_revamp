@@ -13,6 +13,9 @@ import Services_top from "./Services_top";
 import Service_one from "./Service_one";
 import Service_two from "./Service_two";
 import Service_three from "./Service_three";
+import Contact_page from "./Contact_page";
+import Contact_banner from "./Contact_banner";
+
 export {
   Navbar,
   Hero,
@@ -29,4 +32,6 @@ export {
   Service_one,
   Service_two,
   Service_three,
+  Contact_page,
+  Contact_banner,
 };

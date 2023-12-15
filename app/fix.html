@@ -1,28 +1,60 @@
-<section class="serv-list">
-    <div class="container" id="icon-grid">
-        <h3 class="serv-bef">Before Deciding to Travel</h3>
-        <div class="grid grid-cols-12">
-            <div class="col-span-4 md:col-span-12 p-2">
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">Getting you a second opinion from a doctor/specialist in India regarding
-                            your medical condition</p>
-                    </div>
+<section className="contacting justify-center bg-med">
+    <div className="container px-4 py-5">
+        <div className="screen">
+            <div className="screen-header">
+                <div className="screen-header-left">
+                    <h4 className="text-light fw-bold text-center">Anima MedTours</h4>
+                </div>
+                <div className="screen-header-right">
+                    <div className="screen-header-ellipsis"></div>
+                    <div className="screen-header-ellipsis"></div>
+                    <div className="screen-header-ellipsis"></div>
                 </div>
             </div>
-            <div class="col-span-4 md:col-span-12 p-2">
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">Getting you a quote for medical treatment services from a hospital of your
-                            choice</p>
+            <div className="screen-body">
+                <div className="screen-body-item left">
+                    <div className="app-title">
+                        <span>Start Your</span>
+                        <span className="text-light">Journey</span>
+
                     </div>
+                    <span className="mt-4"><img src="img/logo_white.png" className="img-fluid" alt="Anima MedTours Logo"
+                            width="200"></span>
                 </div>
-            </div>
-            <div class="col-span-4 md:col-span-12 p-2">
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">Advising you on any travel requirements to India</p>
-                    </div>
+                <div className="screen-body-item">
+                    <form action="" method="post">
+                        <div className="app-form">
+                            <div className="app-form-group">
+                                {{ form.name|as_crispy_field }}
+                            </div>
+                            <div className="app-form-group">
+                                {{ form.email|as_crispy_field }}
+                            </div>
+                            <div className="app-form-group">
+                                {{ form.phone|as_crispy_field }}
+                            </div>
+                            <div className="app-form-group message">
+                                {{ form.subject|as_crispy_field }}
+                            </div>
+                            <div className="app-form-group message">
+                                {{ form.message|as_crispy_field }}
+                            </div>
+                            <div className="app-form-group buttons">
+                                <button className="app-form-button" type="submit">
+                                    <div className="svg-wrapper">
+                                        <svg height="24" width="24" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path
+                                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </div>
+                                    <span>Send</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

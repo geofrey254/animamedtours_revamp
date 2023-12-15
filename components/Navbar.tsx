@@ -68,7 +68,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/contact"
                   className="text-white hover:no-underline font-normal"
                 >
                   Contacts
