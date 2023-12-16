@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="bg-white border-gray-200">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
           <a
-            href="https://flowbite.com"
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <Image
@@ -29,7 +29,7 @@ const Navbar = () => {
           </a>
           <div className="flex items-center space-x-6 rtl:space-x-reverse">
             <a
-              href="tel:5541251234"
+              href="tel:+254704208484"
               className="text-sm custom_color hover:no-underline font-semibold"
             >
               +254704 208484
@@ -43,7 +43,7 @@ const Navbar = () => {
             <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-white hover:no-underline font-normal"
                   aria-current="page"
                 >

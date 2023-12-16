@@ -26,7 +26,7 @@ const Hero = () => {
                 Healthcare <br />
                 <span className={["", styles.abroad].join(" ")}>Abroad</span>
               </h2>
-              <a href="#" className="btn-who">
+              <a href="/about" className="btn-who">
                 Who we are
               </a>
             </div>

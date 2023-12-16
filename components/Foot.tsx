@@ -2,7 +2,14 @@ import React from "react";
 import { BiHome, BiSearch, BiUser } from "react-icons/bi";
 import { SiHandshake } from "react-icons/si";
 import { IoNavigate } from "react-icons/io5";
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhone,
+  FaEnvelope,
+  FaFacebook,
+  FaLinkedinIn,
+  FaInstagram,
+} from "react-icons/fa";
 import Image from "next/image";
 
 const Foot = () => {
@@ -49,7 +56,7 @@ const Foot = () => {
               <div className="md:col-span-4 col-span-12 mb-50">
                 <div className="footer-widget">
                   <div className="footer-logo">
-                    <a href="#">
+                    <a href="/">
                       <Image
                         src="/anima_logo.png"
                         width={500}
@@ -68,17 +75,19 @@ const Foot = () => {
                       experience throughout the treatment and recovery process.
                     </p>
                   </div>
-                  <div className="footer-social-icon">
+                  <div className="footer-social-icon md:mb-0 mb-12">
                     <span>Follow us</span>
-                    <a href="https://www.facebook.com/profile.php?id=100090202927867&mibextid=ZbWKwL">
-                      <i className="fab fa-facebook-f facebook-bg"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/anima-medtours-africa/">
-                      <i className="fab fa-linkedin-square linkedin-bg"></i>
-                    </a>
-                    <a href="https://www.instagram.com/p/CpHusP2IxLw/?igshid=YmMyMTA2M2Y=">
-                      <i className="fab fa-instagram instagram-bg"></i>
-                    </a>
+                    <div className="flex">
+                      <a href="https://www.facebook.com/profile.php?id=100090202927867&mibextid=ZbWKwL">
+                        <FaFacebook className="foot-icon" />
+                      </a>
+                      <a href="https://www.linkedin.com/company/anima-medtours-africa/">
+                        <FaLinkedinIn className="foot-icon" />
+                      </a>
+                      <a href="https://www.instagram.com/p/CpHusP2IxLw/?igshid=YmMyMTA2M2Y=">
+                        <FaInstagram className="foot-icon" />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -89,16 +98,16 @@ const Foot = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="#">Home</a>
+                      <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="#">About Us</a>
+                      <a href="/about">About Us</a>
                     </li>
                     <li>
-                      <a href="#">Our Services</a>
+                      <a href="/services">Our Services</a>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <a href="/contact">Contact Us</a>
                     </li>
                   </ul>
                 </div>
@@ -151,22 +160,22 @@ const Foot = () => {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <a href="#" className="text-light no-underline">
+                      <a href="/" className="text-light no-underline">
                         Home
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="text-light no-underline">
+                      <a href="/about" className="text-light no-underline">
                         About Us
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="text-light no-underline">
+                      <a href="/services" className="text-light no-underline">
                         Our Services
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="text-light no-underline">
+                      <a href="/contact" className="text-light no-underline">
                         Contact Us
                       </a>
                     </li>

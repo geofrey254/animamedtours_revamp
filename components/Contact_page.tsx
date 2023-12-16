@@ -44,7 +44,7 @@ const Contact_page = () => {
           <div className="screen">
             <div className="screen-header">
               <div className="screen-header-left">
-                <h4 className="text-white font-bold text-center">
+                <h4 className="text-white font-black text-center text-xl">
                   Anima MedTours
                 </h4>
               </div>

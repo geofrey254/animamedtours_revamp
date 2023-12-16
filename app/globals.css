@@ -231,28 +231,14 @@ section {
 
 .footer-social-icon a {
   color: #fff;
-  font-size: 16px;
   margin-right: 15px;
 }
 
-.footer-social-icon i {
-  height: 40px;
-  width: 40px;
+.footer-social-icon .foot-icon {
+  height: 20px;
+  width: 20px;
   text-align: center;
   line-height: 38px;
-  border-radius: 50%;
-}
-
-.facebook-bg {
-  background: #3B5998;
-}
-
-.linkedin-bg {
-  background: #0e76a8;
-}
-
-.instagram-bg {
-  background-image: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
 }
 
 .footer-widget-heading h3 {
