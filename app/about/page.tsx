@@ -7,6 +7,28 @@ export const metadata: Metadata = {
   title: "Anima MedTours - About Us",
   description:
     "Discover exceptional healthcare in India with Anima MedTours (AMT). We guide patients through every step of their medical journey, from consultations and treatment quotes to seamless experiences during procedures and recovery. Our dedicated team ensures that patients receive top-quality care, providing ongoing support even after they return home. Trust AMT to make your medical travel experience worry-free and focused on your well-being.",
+  openGraph: {
+    title: "Anima MedTours - About Us",
+    description:
+      "Discover exceptional healthcare in India with Anima MedTours (AMT). We guide patients through every step of their medical journey, from consultations and treatment quotes to seamless experiences during procedures and recovery. Our dedicated team ensures that patients receive top-quality care, providing ongoing support even after they return home. Trust AMT to make your medical travel experience worry-free and focused on your well-being.",
+    url: "https://www.animamedtours.com/about",
+    siteName: "Anima MedTours",
+    images: [
+      {
+        url: "https://www.animamedtours.com/_next/image?url=%2Fanima_logo.png&w=640&q=100",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://www.animamedtours.com/_next/image?url=%2Fanima_logo.png&w=640&q=100",
+        width: 1800,
+        height: 1600,
+        alt: "My custom alt",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 const page = () => {

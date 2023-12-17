@@ -14,8 +14,42 @@ export const metadata: Metadata = {
   verification: {
     google: "zUhK1LifkKZBI8vvFhwNbGknoIo-CUafRWL3ijty0D4",
   },
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: "Anima MedTours - TRAVEL. HEAL. THRIVE",
+    description:
+      "At Anima MedTours (AMT), we help patients experience top-quality healthcare in India. We support our patients in their journey to access medical treatment, procedures or routine medical check-ups in India.",
+    url: "https://www.animamedtours.com",
+    siteName: "Anima MedTours",
+    images: [
+      {
+        url: "https://www.animamedtours.com/_next/image?url=%2Fanima_logo.png&w=640&q=100",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://www.animamedtours.com/_next/image?url=%2Fanima_logo.png&w=640&q=100",
+        width: 1800,
+        height: 1600,
+        alt: "My custom alt",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
-
 export default function RootLayout({
   children,
 }: {
