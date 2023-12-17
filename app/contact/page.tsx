@@ -17,12 +17,12 @@ export const metadata: Metadata = {
     siteName: "Anima MedTours",
     images: [
       {
-        url: "https://www.animamedtours.com/_next/image?url=%2Fanima_logo.png&w=640&q=100",
+        url: "logo_all.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://www.animamedtours.com/_next/image?url=%2Fanima_logo.png&w=640&q=100",
+        url: "logo_all.png",
         width: 1800,
         height: 1600,
         alt: "My custom alt",
