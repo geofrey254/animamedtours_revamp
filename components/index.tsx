@@ -15,6 +15,7 @@ import Service_two from "./Service_two";
 import Service_three from "./Service_three";
 import Contact_page from "./Contact_page";
 import Contact_banner from "./Contact_banner";
+import Script from "next/script";
 
 export {
   Navbar,
@@ -35,3 +36,22 @@ export {
   Contact_page,
   Contact_banner,
 };
+
+function Home() {
+  return (
+    <div className="container">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-V0M25W89MT" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-V0M25W89MT');
+        `}
+      </Script>
+    </div>
+  );
+}
+
+export default Home;
