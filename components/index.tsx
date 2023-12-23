@@ -40,7 +40,7 @@ export {
 function Home() {
   return (
     <div className="container">
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-V0M25W89MT" />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-V0M25W89MT" />
       <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
