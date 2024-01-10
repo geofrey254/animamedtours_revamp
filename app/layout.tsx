@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "At Anima MedTours (AMT), we help patients experience top-quality healthcare in India. We support our patients in their journey to access medical treatment, procedures or routine medical check-ups in India.",
   verification: {
-    google: "LeRsFKTv6XNXrZiU-gDA7RRIqYdWXT-LJrW4gktLP2Q",
+    google: "A01B7AwUh3cR0jbM7YNA_uzGaA69Ygj9LvrW0f6hQYI",
   },
   robots: {
     index: false,
