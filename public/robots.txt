@@ -5,6 +5,5 @@ Disallow:
 User-agent: googlebot-mobile
 Disallow: 
 User-agent: *
-Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://www.animamedtours.com/sitemap.xml
