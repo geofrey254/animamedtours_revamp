@@ -23,15 +23,15 @@ const Jumbotron = () => {
                   viewBox="-194.56 -194.56 901.12 901.12"
                   xmlSpace="preserve"
                   stroke="#ffffff"
-                  stroke-width="9.728"
+                  strokeWidth="9.728"
                 >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g
                     id="SVGRepo_tracerCarrier"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                     stroke="#CCCCCC"
-                    stroke-width="3.072"
+                    strokeWidth="3.072"
                   ></g>
                   <g id="SVGRepo_iconCarrier">
                     <g transform="translate(1 1)">
@@ -70,13 +70,13 @@ const Jumbotron = () => {
                   xmlSpace="preserve"
                   fill="#fafafa"
                   stroke="#fafafa"
-                  stroke-width="9.728"
+                  strokeWidth="9.728"
                 >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g
                     id="SVGRepo_tracerCarrier"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   ></g>
                   <g id="SVGRepo_iconCarrier">
                     <g>
@@ -120,13 +120,13 @@ const Jumbotron = () => {
                   viewBox="-174.45 -174.45 807.97 807.97"
                   xmlSpace="preserve"
                   stroke="#ffffff"
-                  stroke-width="8.722273"
+                  strokeWidth="8.722273"
                 >
-                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                   <g
                     id="SVGRepo_tracerCarrier"
                     stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinejoin="round"
                   ></g>
                   <g id="SVGRepo_iconCarrier">
                     <g>

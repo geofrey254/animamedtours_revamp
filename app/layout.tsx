@@ -12,9 +12,12 @@ export const metadata: Metadata = {
   title: "Anima MedTours - TRAVEL. HEAL. THRIVE",
   description:
     "At Anima MedTours (AMT), we help patients experience top-quality healthcare in India. We support our patients in their journey to access medical treatment, procedures or routine medical check-ups in India.",
-  verification: {
-    google: "A01B7AwUh3cR0jbM7YNA_uzGaA69Ygj9LvrW0f6hQYI",
-  },
+  keywords: [
+    "Anima MedTours",
+    "Medtours Kenya",
+    "anima medtours kenya",
+    "medtour company kenya",
+  ],
   robots: {
     index: false,
     follow: true,

@@ -1,6 +1,6 @@
 .bg_top {
     width: 100%;
-    height: 120vh;
+    height: 100%;
     background: url(/doc.jpg), linear-gradient(to right, #1f7fa9, rgba(73, 66, 66, 0.961)) center no-repeat;
     background-position: center;
     background-blend-mode: multiply;
