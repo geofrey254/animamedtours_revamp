@@ -44,7 +44,7 @@ const Foot = () => {
                   <FaEnvelope className="fa-icon" />
                   <div className="cta-text">
                     <h4>Mail us</h4>
-                    <span>anima.medtours@gmail.com</span>
+                    <span>info@animamedtours.com</span>
                   </div>
                 </div>
               </div>
