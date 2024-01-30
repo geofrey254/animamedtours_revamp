@@ -42,7 +42,7 @@ export const metadata: Metadata = {
         url: "/logo_all.png",
         width: 1800,
         height: 1600,
-        alt: "My custom alt",
+        alt: "Anima MedTours Logo",
       },
     ],
     locale: "en_US",
