@@ -9,6 +9,9 @@ import { Navbar, Foot } from "@/components";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://animamedtours.com",
+  },
   title: "Anima MedTours - TRAVEL. HEAL. THRIVE",
   description:
     "At Anima MedTours (AMT), we help patients experience top-quality healthcare in India. We support our patients in their journey to access medical treatment, procedures or routine medical check-ups in India.",
@@ -19,17 +22,9 @@ export const metadata: Metadata = {
     "medtour company kenya",
   ],
   robots: {
-    index: false,
+    index: true,
     follow: true,
     nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
   openGraph: {
     title: "Anima MedTours - TRAVEL. HEAL. THRIVE",
