@@ -29,10 +29,17 @@ const Navbar = () => {
           </a>
           <div className="flex items-center space-x-6 rtl:space-x-reverse">
             <a
-              href="tel:+254704208484"
+              aria-label="Chat on WhatsApp"
+              href="https://wa.me/+254110568310"
               className="text-sm custom_color hover:no-underline font-semibold"
             >
-              +254704 208484
+              <Image
+                src="/whats.png"
+                width={100}
+                height={100}
+                alt="Chat on WhatsApp"
+                className="logo"
+              ></Image>
             </a>
           </div>
         </div>

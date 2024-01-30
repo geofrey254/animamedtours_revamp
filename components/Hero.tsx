@@ -53,8 +53,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-{
-  /* <h2>Experience <br> <span className={["", styles.top-line].join(" ")}>Top-Quality</span><br>Healthcare<br><span className={["", styles.abroad].join(" ")}>Abroad</span></h2>
-    <a href="#" className="">Who we are</a> */
-}
