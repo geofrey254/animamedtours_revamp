@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "Anima MedTours - About Us",
   description:
     "Discover exceptional healthcare in India with Anima MedTours (AMT). We guide patients through every step of their medical journey, from consultations and treatment quotes to seamless experiences during procedures and recovery. Our dedicated team ensures that patients receive top-quality care, providing ongoing support even after they return home. Trust AMT to make your medical travel experience worry-free and focused on your well-being.",
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+  },
+  alternates: {
+    canonical: `https://www.andegogachagua.com/about`,
+  },
   openGraph: {
     title: "Anima MedTours - About Us",
     description:
@@ -23,7 +31,7 @@ export const metadata: Metadata = {
         url: "logo_all.png",
         width: 1800,
         height: 1600,
-        alt: "My custom alt",
+        alt: "Anima MedTours Logo",
       },
     ],
     locale: "en_US",
