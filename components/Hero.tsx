@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="w-full bg_top flex justify-center items-center h-[90vh] md:h-[100vh] px-3 md:px-0 pt-[200px] md:pt-[150px]">
+    <section className="w-full bg_top flex justify-center items-center h-[90vh] md:h-[100vh] xl:h-[80vh] px-3 md:px-0 pt-[200px] md:pt-[150px]">
       <div className="container flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         {/* <div className="shapes">
           <div className="shape"></div>
@@ -12,14 +12,14 @@ const Hero = () => {
         </div> */}
         <div className="left mb-8 md:mb-0">
           <div className="flex flex-col gap-3 mb-6">
-            <h2 className="text-white tracking-normal md:tracking-wide text-4xl leading-tight md:text-6xl font-bold">
+            <h2 className="text-white tracking-normal md:tracking-wide text-4xl leading-tight md:text-6xl xl:text-7xl font-bold">
               Experience{" "}
               <span className="text-[#ffcc2f] font-extrabold">Top-Quality</span>
             </h2>
-            <h2 className="text-white tracking-normal md:tracking-wide text-4xl md:text-6xl font-bold leading-tight">
+            <h2 className="text-white tracking-normal md:tracking-wide text-4xl md:text-6xl xl:text-7xl font-bold leading-tight">
               Healthcare
             </h2>
-            <h2 className="text-white tracking-normal md:tracking-wide text-4xl md:text-5xl font-bold leading-tight">
+            <h2 className="text-white tracking-normal md:tracking-wide text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
               Abroad
             </h2>
           </div>
