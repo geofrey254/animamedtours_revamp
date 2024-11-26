@@ -70,11 +70,11 @@ const Navbar = () => {
       <div
         className={
           menuOpen
-            ? "nav_anim fixed w-[100%] h-[26rem] bg-[#1F7FA9]"
+            ? "nav_anim fixed w-[100%] h-[90vh] bg-[#1F7FA9]"
             : "transition ease-in-out delay-150 duration-300 collapse"
         }
       >
-        <ul className="flex flex-col gap-6 text-white font-medium mt-12 ml-12">
+        <ul className="flex flex-col gap-20 text-white font-semibold text-xl mt-12 ml-8">
           <li>
             <Link href="#" onClick={hideNav}>
               Home
@@ -96,7 +96,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="mt-12">
+        <div className="mt-24 mb-12">
           <ul className="flex justify-around items-center text-4xl text-white">
             <li>
               <Link href="#">
@@ -110,6 +110,15 @@ const Navbar = () => {
               <FaInstagramSquare />
             </li>
           </ul>
+        </div>
+        <div className="flex justify-center mb-8">
+          <Link
+            href="#contact"
+            onClick={hideNav}
+            className="bg-white text-[#1F7FA9] py-2 px-6 rounded-lg text-base font-semibold hover:bg-gray-100"
+          >
+            Get in Touch
+          </Link>
         </div>
       </div>
     </nav>
