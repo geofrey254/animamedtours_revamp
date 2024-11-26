@@ -9,6 +9,7 @@ import { Navbar, Foot } from "@/components";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000", "https://animamedtours.com"),
   alternates: {
     canonical: "https://animamedtours.com",
   },
@@ -59,8 +60,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
-      </body>{" "}
-      <Foot />
+        <Foot />
+      </body>
     </html>
   );
 }

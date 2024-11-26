@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Poppins:wght@200;300;500;600;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserr`at:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Poppins:wght@200;300;500;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserr`at:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -43,7 +43,7 @@ body {
 }
 
 a {
-  font-family: "Khand", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -150,10 +150,32 @@ section {
   }
 }
 
+.nav_two {
+  background: #1f7fa9;
+}
+
+@keyframes navigation {
+  to {
+    transform: translateY(0px) rotate(0deg);
+    border-radius: 0px;
+    opacity: 100%;
+  }
+
+  from {
+    transform: translateY(1200px) rotate(90deg);
+    border-radius: 500px;
+    opacity: 100%;
+  }
+}
+
+.nav_anim {
+  animation: navigation 1.5s ease-in-out;
+}
 
 /* Footer */
 .footer-section {
-  background: url(/taj.jpg), linear-gradient(45deg, rgba(0, 0, 0, 0.74), #114860) center no-repeat;
+  background: url(/taj.jpg),
+    linear-gradient(45deg, rgba(0, 0, 0, 0.74), #114860) center no-repeat;
   position: relative;
   background-blend-mode: multiply;
   background-size: cover;
@@ -186,7 +208,7 @@ section {
 .cta-text span {
   color: #ffffff;
   font-size: 11px;
-  font-family: 'Khand', sans-serif;
+  font-family: "Khand", sans-serif;
   letter-spacing: 2px;
   font-weight: 600;
 }
@@ -225,7 +247,7 @@ section {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -297,8 +319,6 @@ section {
   color: #ffcc2f;
 }
 
-
-
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
@@ -314,7 +334,6 @@ section {
 }
 
 /* Footer End */
-
 
 .custom_color {
   color: #1f7fa9;
@@ -334,7 +353,6 @@ section {
     left: 90px;
   }
 }
-
 
 /* Button design */
 .btn-who {
@@ -370,7 +388,7 @@ section {
 }
 
 .btn-who::before {
-  content: '';
+  content: "";
   display: block;
   width: 0px;
   height: 86%;
@@ -414,7 +432,7 @@ section {
 
 /* Jumbotron */
 .features .feat-head {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 3rem;
   color: #1f7fa9;
@@ -423,7 +441,7 @@ section {
 .feature-icon {
   width: 4rem;
   height: 4rem;
-  border-radius: .75rem;
+  border-radius: 0.75rem;
 }
 
 .feature-icon-small {
@@ -436,15 +454,16 @@ section {
 }
 
 .features .feature .feat-title {
-  font-family: 'Khand', sans-serif;
+  font-family: "Khand", sans-serif;
 }
 
 /* End Jumbotron */
 
 /* US section */
 .us {
-  background-color: #FFFFFF;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100%25' height='100%25'%3E%3Cdefs%3E%3Cpattern id='p' width='100' height='100' patternUnits='userSpaceOnUse' patternTransform='scale(0.73)'%3E%3Cpath id='a' data-color='fill' fill='%231F7FA9' stroke='%231F7FA9' stroke-width='34.23' d='M50 100L0 50V0l50 50 50-50h0v50l-50 50z'%3E%3C/path%3E%3Cuse xlink:href='%23a' y='-100'%3E%3C/use%3E%3Cuse xlink:href='%23a' y='100'%3E%3C/use%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E"), linear-gradient(to right, #0e3748, #1f7fa9) center no-repeat;
+  background-color: #ffffff;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100%25' height='100%25'%3E%3Cdefs%3E%3Cpattern id='p' width='100' height='100' patternUnits='userSpaceOnUse' patternTransform='scale(0.73)'%3E%3Cpath id='a' data-color='fill' fill='%231F7FA9' stroke='%231F7FA9' stroke-width='34.23' d='M50 100L0 50V0l50 50 50-50h0v50l-50 50z'%3E%3C/path%3E%3Cuse xlink:href='%23a' y='-100'%3E%3C/use%3E%3Cuse xlink:href='%23a' y='100'%3E%3C/use%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E"),
+    linear-gradient(to right, #0e3748, #1f7fa9) center no-repeat;
   background-size: cover;
 }
 
@@ -475,7 +494,7 @@ section {
 
 .us-head {
   color: #ffff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3em;
   text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
   font-weight: 900;
@@ -518,12 +537,12 @@ section {
 .text-bg-cool {
   background: #1f7fa9;
   font-weight: 900;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .med-list .ll .lll {
   color: #1f7fa9;
-  font-family: 'Khand', sans-serif;
+  font-family: "Khand", sans-serif;
   font-weight: 600;
 }
 
@@ -564,7 +583,7 @@ section {
 }
 
 .sell {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #252525;
   font-weight: 600;
 }
@@ -618,7 +637,7 @@ section {
 }
 
 .btn-contact::before {
-  content: '';
+  content: "";
   display: block;
   width: 0px;
   height: 86%;
@@ -681,13 +700,13 @@ section {
 }
 
 .about-us .about-text .about-head {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   color: white;
 }
 
 .about-us .about-text .about-head::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -698,19 +717,19 @@ section {
 }
 
 .about-us .about-text .about-p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   color: white;
 }
 
 .partners .partners-text .partners-head {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   color: #ffcc2f;
 }
 
 .partners .partners-text .partners-head::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -721,7 +740,7 @@ section {
 }
 
 .partners .partners-text .partners-p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   color: #252525;
 }
@@ -735,23 +754,22 @@ section {
 }
 
 .activities {
-  background: #4AC29A;
+  background: #4ac29a;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #fff, #1f7fa9);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #fff, #1f7fa9);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .activities .activities-text .activities-head {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   color: #1f7fa9;
 }
 
 .activities .activities-text .activities-head::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -762,7 +780,7 @@ section {
 }
 
 .activities .activities-text .activities-p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   color: #252525;
 }
@@ -776,7 +794,6 @@ section {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #ffcc2f, #1f7fa9);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .text-cool {
@@ -785,19 +802,19 @@ section {
 
 .text-yell {
   color: #ffcc2f;
-  text-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.247)
+  text-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.247);
 }
 
 .services .serv-how {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   position: relative;
   color: #1f7fa9;
-  text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.183);
+  text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.183);
 }
 
 .services .serv-how::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -808,14 +825,14 @@ section {
 }
 
 .serv-list .serv-bef {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   position: relative;
   color: #ffcc2f;
 }
 
 .serv-list .serv-bef::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -826,7 +843,7 @@ section {
 }
 
 .serv-list .serv-bef::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -844,8 +861,7 @@ section {
   background: linear-gradient(to right, #1f7fa9, #014f57, #1f7fa9);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
-  font-family: 'Alfa Slab One', cursive;
-
+  font-family: "Alfa Slab One", cursive;
 }
 
 .card {
@@ -856,7 +872,7 @@ section {
 
 .card-text {
   color: #1f7fa9;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
@@ -931,7 +947,7 @@ section {
 }
 
 .app-title:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -967,7 +983,7 @@ section {
   color: #ddd;
   font-size: 14px;
   outline: none;
-  transition: border-color .2s;
+  transition: border-color 0.2s;
 }
 
 .app-form-control::placeholder {
