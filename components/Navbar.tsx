@@ -76,22 +76,22 @@ const Navbar = () => {
       >
         <ul className="flex flex-col gap-20 text-white font-semibold text-xl mt-12 ml-8">
           <li>
-            <Link href="#" onClick={hideNav}>
+            <Link href="/" onClick={hideNav}>
               Home
             </Link>
           </li>
           <li>
-            <Link href="#about" onClick={hideNav}>
+            <Link href="/about" onClick={hideNav}>
               About Us
             </Link>
           </li>
           <li>
-            <Link href="#serv" onClick={hideNav}>
+            <Link href="/services" onClick={hideNav}>
               Services
             </Link>
           </li>
           <li>
-            <Link href="#cont" onClick={hideNav}>
+            <Link href="/contact" onClick={hideNav}>
               Contact Us
             </Link>
           </li>
